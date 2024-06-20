@@ -50,7 +50,7 @@ def count_words(text):
 
     # 나머지 단어를 추출합니다 (영어 단어만, 대소문자 구분 없이).
     words = re.findall(r'\b\w+\b', text)
-    words = [word.lower() for word in words if not re.search(r'[ㄱ-ㅎㅏ-ㅣ가-힣]', word)]
+    words = [word.lower() for word in words if not re.search(r'[ㄱ-ㅎㅏ-ㅣ가-힣0-9]', word)]
     word_counts = Counter(words)
 
     word_counts.update(pattern_counts)
