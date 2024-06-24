@@ -1,1 +1,1 @@
-파일 처리 중 오류가 발생했습니다: str.replace() takes no keyword arguments
+파일 처리 중 오류가 발생했습니다: [Errno 13] Permission denied: 'D:/eunseongProjectManage/python/word_counting/dist/24학년도수능.xlsx'
